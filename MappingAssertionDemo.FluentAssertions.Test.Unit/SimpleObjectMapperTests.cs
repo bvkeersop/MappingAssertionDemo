@@ -19,7 +19,7 @@ public class SimpleObjectMapperTests
     }
 
     [TestMethod]
-    public void Map_AssertEverythingManually()
+    public void Map_FluentAssertions_AssertEverythingManually()
     {
         // Act
         var result = SimpleObjectMapper.Map(_simpleObject);
@@ -30,7 +30,7 @@ public class SimpleObjectMapperTests
     }
 
     [TestMethod]
-    public void Map_AssertWithEquivalentTo()
+    public void Map_FluentAssertions_AssertWithEquivalentTo()
     {
         // Act
         var result = SimpleObjectMapper.Map(_simpleObject);

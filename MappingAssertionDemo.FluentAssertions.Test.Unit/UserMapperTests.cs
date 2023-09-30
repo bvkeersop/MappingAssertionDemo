@@ -24,7 +24,7 @@ public class UserMapperTests
     }
 
     [TestMethod]
-    public void Map_AssertEverythingManually()
+    public void Map_FluentAssertions_AssertEverythingManually()
     {
         // Act
         var result = UserMapper.Map(_user);
@@ -40,7 +40,7 @@ public class UserMapperTests
     }
 
     [TestMethod]
-    public void Map_AssertWithEquivalentTo()
+    public void Map_FluentAssertions_AssertWithEquivalentTo()
     {
         // Act
         var result = UserMapper.Map(_user);
